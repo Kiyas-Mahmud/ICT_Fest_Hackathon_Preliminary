@@ -4,3 +4,11 @@ __pycache__/
 .venv/
 venv/
 .pytest_cache/
+cowork.db
+api_tests.http
+tester.py
+
+# local-only extra test suites (grader is black-box; not part of submission)
+tests/conftest.py
+tests/test_concurrency.py
+tests/test_contract.py
